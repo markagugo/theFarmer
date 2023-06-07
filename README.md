@@ -1,6 +1,6 @@
 ﻿# THE_FARMER
 <p align="center">
-  <img width="600" height="400" src="https://user-images.githubusercontent.com/73078814/169968797-8e91e83d-0322-44df-b5e9-23e17cc2c55c.png">
+  <img width="600" height="400" src="screenshot.png">
 </p>
 
 
@@ -33,11 +33,11 @@ git clone https://github.com/markagugo/theFarmer.git
 cd the_farmer
 
 //install the neceassary requirements
-pip install requirements.txt
+pip install -r requirements.txt
 
 //for program help
 python theFarmer.py --h
 
 #run the program and parse neceassary parameters
-python .\theFarmer.py -k 'vince carter legacy movie download' -u '.mp4, .mkv, .jpg', -e 'C:\WebDriver\chromedriver.exe' -o 'vid_links.txt'
+python theFarmer.py -k 'vince carter legacy movie download' -u '.mp4, .mkv, .jpg', -e 'C:\WebDriver\chromedriver.exe' -o 'vid_links.txt'
 ```
